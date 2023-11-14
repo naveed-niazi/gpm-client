@@ -1,0 +1,40 @@
+@import "../../sassStyles/variables";
+
+.table-card {
+  margin-bottom: 20px;
+  background-color: $whiteColor;
+  border-radius: 4px;
+
+  .title {
+    // margin-top: 50px;
+    font-size: 24px;
+    color: $secondaryColor6;
+    font-weight: 400;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .content {
+    padding: 20px;
+    .link {
+      padding: 10px 0px;
+      color: $linkColor !important;
+      display: flex;
+      justify-content: space-around;
+      background-color: $whiteColor;
+    }
+  }
+
+  .canvas {
+    padding: 20px;
+  }
+
+  .ant-table-tbody {
+    .ant-table-cell {
+      padding: 6px 10px;
+      font-size: 13px;
+    }
+  }
+  .ant-tag {
+    font-size: 11px;
+  }
+}

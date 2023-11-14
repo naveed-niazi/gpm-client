@@ -1,0 +1,14 @@
+@import "../../../sassStyles/variables";
+
+.settings .content .notification {
+  .checkbox-description {
+    margin-left: 6px;
+    font-size: 12px;
+    color: $secondaryColor8;
+  }
+  .description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: $textColor;
+  }
+}

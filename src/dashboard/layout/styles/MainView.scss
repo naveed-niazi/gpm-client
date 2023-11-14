@@ -1,0 +1,7 @@
+@import "../../../sassStyles/variables";
+
+.dashboard-main {
+  padding: 20px;
+  background: $secondaryColor;
+  overflow-y: auto;
+}

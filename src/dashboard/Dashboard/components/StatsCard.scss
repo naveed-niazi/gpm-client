@@ -1,0 +1,53 @@
+@import "../../../sassStyles/variables";
+
+.dashboard-stats .stats-card {
+  background-color: $whiteColor;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  .ant-statistic {
+    flex-grow: 1;
+    line-height: 1.2714285714285714;
+
+    .ant-statistic-content-value {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+  .icon .anticon {
+    font-size: 25px;
+    color: $secondaryColor6;
+    background-color: $secondaryColor;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .history {
+    margin-top: 20px;
+    display: flex;
+
+    .text {
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 6px;
+      line-height: 1.5;
+      color: $secondaryColor5;
+    }
+
+    .anticon-rise,
+    .grow {
+      color: $successColor;
+      margin-right: 4px;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+    .anticon-fall,
+    .fall {
+      color: $warningColor;
+      font-size: 14px;
+      margin-right: 4px;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+  }
+}

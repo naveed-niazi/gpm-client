@@ -1,0 +1,26 @@
+@import "../../sassStyles/variables";
+
+.order-link {
+  color: $linkColor !important;
+}
+
+.order-link:hover {
+  text-decoration: underline;
+}
+
+.urgent {
+  color: $warningColor;
+  font-weight: 500;
+}
+.standard {
+  color: $successColor2;
+  font-weight: 500;
+}
+.orders-table {
+  .ant-table-tbody {
+    .ant-table-cell {
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+  }
+}

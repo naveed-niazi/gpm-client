@@ -1,0 +1,134 @@
+@import "../../sassStyles/variables";
+
+.add-website {
+  .ant-breadcrumb {
+    font-size: 14px;
+  }
+
+  .heading {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 30px 0px;
+  }
+
+  .order-history {
+    margin: 40px 20px;
+    max-width: 500px;
+
+    .ant-timeline .ant-timeline-item {
+      .ant-timeline-item-head-blue {
+        color: $primaryColor2;
+        border-color: $primaryColor2;
+        inset-inline-start: 145px;
+      }
+      .ant-timeline-item-label {
+        width: 130px;
+      }
+      .ant-timeline-item-content {
+        max-width: 500px;
+        width: 100%;
+        inset-inline-start: 140px;
+      }
+      .ant-timeline-item-tail {
+        inset-inline-start: 145px;
+      }
+    }
+  }
+}
+
+.order-view .websites-list {
+  margin: 10px 0px;
+
+  .result-link {
+    text-decoration: underline;
+  }
+
+  .link {
+    color: $linkColor;
+  }
+
+  .ant-table {
+    border: 1px solid $secondaryColor2;
+    background-color: $whiteColor;
+    border-radius: 0px;
+    border-bottom: none;
+  }
+  .ant-table-wrapper .ant-table-thead > tr > th {
+    background-color: $whiteColor;
+  }
+  .ant-table-wrapper .ant-table-thead > tr > th {
+    border-color: $secondaryColor2;
+  }
+
+  .ant-table-wrapper
+    .ant-table:not(.ant-table-bordered)
+    .ant-table-tbody
+    > tr.ant-table-row:hover
+    > td:first-child {
+    border-radius: 0px;
+  }
+
+  .ant-table-wrapper
+    .ant-table:not(.ant-table-bordered)
+    .ant-table-tbody
+    > tr.ant-table-row:hover
+    > td:last-child {
+    border-radius: 0px;
+  }
+
+  .ant-table-wrapper
+    .ant-table:not(.ant-table-bordered)
+    .ant-table-tbody
+    > tr.ant-table-row:hover
+    > td {
+    border-color: $secondaryColor;
+    background-color: $secondaryColor;
+  }
+  .ant-table-wrapper
+    .ant-table-container
+    table
+    > thead
+    > tr:first-child
+    > *:first-child {
+    border-start-start-radius: 0px;
+  }
+  .ant-table-wrapper
+    .ant-table-container
+    table
+    > thead
+    > tr:first-child
+    > *:last-child {
+    border-start-end-radius: 0px;
+  }
+
+  .ant-table-wrapper
+    .ant-table:not(.ant-table-bordered)
+    .ant-table-tbody
+    > tr
+    > td {
+    border-color: $secondaryColor2;
+  }
+}
+
+.link-popover {
+  .ant-descriptions.ant-descriptions-bordered .ant-descriptions-view {
+    border: none;
+  }
+  .ant-descriptions.ant-descriptions-bordered .ant-descriptions-item-label {
+    background-color: $whiteColor;
+  }
+  .link {
+    color: $linkColor;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .ant-popover-inner {
+    min-width: 30rem;
+  }
+
+  .header {
+    background-color: $secondaryColor !important;
+    font-weight: 500;
+  }
+}

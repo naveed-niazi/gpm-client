@@ -1,0 +1,32 @@
+@import "../../sassStyles/variables";
+
+.filter-btn {
+  color: $secondaryColor4 !important;
+}
+.filter-btn:hover {
+  border-color: $secondaryColor5 !important;
+  color: $primaryColor2 !important;
+}
+
+.filter-btn-selected {
+  color: $primaryColor2 !important;
+}
+
+.filter-btn-selected:hover {
+  border-color: $secondaryColor5 !important;
+  color: $secondaryColor4 !important;
+}
+
+#website-dropdown {
+  .ant-dropdown-menu .anticon {
+    font-size: 14px;
+  }
+  .ant-dropdown-menu-item {
+    padding: 5px 10px;
+    min-width: 120px;
+  }
+}
+
+#website-dropdown:last-child {
+  position: relative;
+}

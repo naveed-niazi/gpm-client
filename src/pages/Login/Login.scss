@@ -1,0 +1,96 @@
+@import "../../sassStyles/variables";
+@import "../../sassStyles/mixins";
+
+.login {
+  background-color: $secondaryColor;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.login .container {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 65px;
+    }
+  }
+  .heading {
+    color: $secondaryColor6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  @include lgMinBreakPoint {
+    width: 20rem;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
+    background-color: $whiteColor;
+    backdrop-filter: blur(5px);
+  }
+
+  .branding {
+    padding-top: 40px;
+    width: 100px;
+    margin: auto;
+  }
+}
+
+.login-form {
+  margin: auto;
+
+  max-width: 500px;
+
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+
+  .ant-input,
+  .ant-input-password {
+    padding: 10px;
+  }
+
+  .ant-btn-primary {
+    height: 38px;
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .login-form-button {
+    width: 100%;
+  }
+  .ant-form-item {
+    text-align: left;
+  }
+  .ant-input-affix-wrapper {
+    height: 44px;
+  }
+}
+
+.login-form-form {
+  color: #686868;
+}
+
+.auth-content-container {
+  display: grid;
+}
+
+.login-img {
+  margin: auto;
+  width: 36rem;
+  margin-top: -25px;
+  margin-right: 0px;
+  margin-bottom: -46px;
+  display: block;
+}

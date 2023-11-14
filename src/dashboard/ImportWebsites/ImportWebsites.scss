@@ -1,0 +1,74 @@
+@import "../../sassStyles/variables";
+
+.import-websites {
+  height: calc(100vh - 54px);
+  background-color: $secondaryColor;
+  padding: 20px;
+  .title {
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .start-import-btn {
+    background: $successColor2 !important;
+  }
+  .start-import-btn:disabled {
+    background-color: $secondaryColor !important;
+    color: $secondaryColor3;
+  }
+  .console-screen {
+    margin-top: 20px;
+    .header {
+      background-color: $secondaryColor8;
+      border-radius: 4px 4px 0px 0px;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: 500;
+      color: white;
+    }
+    .content {
+      border-radius: 0px 0px 4px 4px;
+      padding: 20px;
+      overflow-y: auto;
+      max-height: 60vh;
+      font-family: monospace;
+      color: white;
+      background-color: $secondaryColor11;
+      .error {
+        color: red;
+        margin-top: 30px;
+      }
+      .result {
+        margin: 20px 0px;
+
+        .old {
+          color: deepskyblue;
+          margin-left: 20px;
+        }
+        .new {
+          color: greenyellow;
+          margin-left: 20px;
+        }
+        .link {
+          margin-left: 10px;
+          color: $whiteColor;
+          font-weight: 300 !important;
+        }
+        .link:hover {
+          text-decoration: none;
+          color: yellow;
+        }
+        .underline {
+          text-decoration: underline;
+        }
+        .underline:hover {
+        }
+      }
+      .yes-btn {
+        margin-left: 5px;
+      }
+    }
+  }
+}

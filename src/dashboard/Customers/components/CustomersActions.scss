@@ -1,0 +1,69 @@
+@import "../../../sassStyles/variables";
+
+.customers-actions {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+
+  .view,
+  .view-active {
+    cursor: pointer;
+  }
+  .view:hover {
+    text-decoration: underline;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+  .view-active {
+    font-weight: 500;
+    color: $primaryColor2;
+  }
+
+  .search-result {
+    color: $secondaryColor4;
+  }
+
+  .bulk-action {
+    display: flex;
+    align-items: center;
+    .text {
+      font-weight: 400;
+      margin: 0px 10px 0px 4px;
+      color: $secondaryColor6;
+    }
+    .number {
+      font-size: 16px;
+      font-weight: 500;
+      color: $secondaryColor8;
+    }
+    #action-dropdown > div:not(.ant-space-compact) {
+      position: relative !important;
+    }
+    .ant-btn:not(.ant-btn-icon-only) {
+      width: 120px;
+    }
+    #action-dropdown {
+      // .ant-btn {
+      //   padding: 0px;
+      //   span:not(.ant-btn) {
+      //     padding-top: 3px;
+      //   }
+      //   .anticon {
+      //     height: 100%;
+      //     width: 30px;
+      //     padding-top: 8px;
+      //     border-left: 1px solid $secondaryColor2;
+      //     float: right;
+      //   }
+      svg {
+        float: left;
+      }
+      // }
+    }
+    .ant-dropdown-menu {
+      width: 150px;
+    }
+  }
+}

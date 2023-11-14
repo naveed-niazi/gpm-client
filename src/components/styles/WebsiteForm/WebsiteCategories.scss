@@ -1,0 +1,29 @@
+@import "../../../sassStyles/variables";
+
+.website-form .website-categories {
+  width: 40%;
+  padding-left: 25px;
+  border-left: 1px solid $secondaryColor2;
+
+  .header {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 32px;
+    .title {
+      font-weight: 400;
+      flex-grow: 1;
+      font-size: 26px;
+    }
+    .anticon-setting {
+      margin-right: 4px;
+    }
+  }
+  .ant-space {
+    align-items: center;
+  }
+  .anticon-minus-circle {
+    color: $warningColor;
+    font-size: 12px;
+  }
+}

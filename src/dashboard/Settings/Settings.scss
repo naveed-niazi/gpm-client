@@ -1,0 +1,56 @@
+@import "../../sassStyles/variables";
+
+.settings {
+  height: 90vh;
+  background-color: white;
+  .sidebar {
+    box-shadow: 1px 0 0px 0px rgba(19, 22, 27, 0.08);
+    padding: 10px 5px;
+    height: 90vh;
+    .ant-menu {
+    }
+    .ant-menu-inline {
+      border-inline-end: none;
+    }
+    .ant-menu-item-selected {
+      background-color: $primaryColorLight;
+      color: $primaryColor4;
+    }
+  }
+  .content {
+    padding: 40px;
+    overflow-y: scroll;
+    height: 90vh;
+    .title {
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: $textColor2;
+    }
+  }
+}
+
+.settings .ant-form {
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+  .ant-form-item-label {
+    padding-bottom: 0px;
+  }
+  .ant-form-item-label > label {
+    color: $textColor;
+    font-size: 12px;
+  }
+  .actions {
+    margin-top: 20px;
+  }
+  .ant-btn {
+  }
+  .ant-input {
+    padding: 10px 10px;
+  }
+}

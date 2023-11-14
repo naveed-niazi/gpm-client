@@ -1,0 +1,28 @@
+@import "../../../sassStyles/variables";
+
+.settings .profile-photo {
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ant-image-img {
+    border-radius: 100px;
+  }
+  .ant-image-mask {
+    border-radius: 100px;
+  }
+
+  .actions {
+    margin: 20px 120px;
+    display: block;
+    .ant-btn {
+      margin-top: 5px;
+      width: 100%;
+    }
+    .ant-upload {
+      width: 100%;
+    }
+  }
+}

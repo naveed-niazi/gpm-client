@@ -1,0 +1,83 @@
+@import "../../../sassStyles/variables";
+
+.dashboard-sidebar {
+  height: calc(100vh - 54px);
+  .header {
+    color: $secondaryColor4;
+    span {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .anticon {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  .logo img {
+    width: 5rem;
+    margin: auto;
+    display: block;
+  }
+
+  .logo-slogan {
+    color: $primaryColor2;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .menu {
+    background: inherit;
+  }
+
+  .menu.ant-menu-light .ant-menu-item-selected {
+    background-color: $primaryColor2;
+    color: $whiteColor;
+    // border-radius: 4px;
+    font-weight: 400;
+  }
+
+  .menu .ant-menu-item-selected .ant-menu-item-icon {
+    color: $whiteColor !important;
+  }
+
+  .menu .ant-menu-item {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 14px;
+    border-radius: 0;
+    padding-left: 15px !important;
+    height: 40px;
+  }
+
+  .menu .ant-menu-item-active:hover:not(.ant-menu-item-selected) {
+    background-color: $secondaryColor !important;
+  }
+
+  .menu.ant-menu .ant-menu-item .ant-menu-item-icon {
+    font-size: 16px;
+    color: $secondaryColor10;
+  }
+
+  .menu.ant-menu-inline {
+    border-inline-end: 0 !important;
+    margin-top: 20px;
+  }
+
+  .branding {
+    position: relative;
+    top: calc(100% - 330px);
+    padding: 0px 20px;
+    margin-right: 10px;
+  }
+}

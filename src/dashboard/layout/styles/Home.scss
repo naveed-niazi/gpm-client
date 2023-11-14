@@ -1,0 +1,23 @@
+@import "../../../sassStyles/variables";
+
+.home-btn {
+  color: $whiteColor;
+  cursor: pointer;
+  background-color: $secondaryColor7;
+  height: 54px;
+  margin: auto;
+  padding: 0 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+
+  .anticon {
+    margin: auto;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+.home-btn:hover {
+  background-color: $primaryColor2;
+}

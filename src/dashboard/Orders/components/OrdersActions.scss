@@ -1,0 +1,27 @@
+@import "../../../sassStyles/variables";
+
+.orders-actions {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+
+  .view,
+  .view-active {
+    cursor: pointer;
+  }
+  .view:hover {
+    text-decoration: underline;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+  .view-active {
+    font-weight: 500;
+    color: $primaryColor2;
+  }
+
+  .search-result {
+    color: $secondaryColor4;
+  }
+}

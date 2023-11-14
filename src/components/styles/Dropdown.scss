@@ -1,0 +1,30 @@
+@import "../../sassStyles/variables";
+
+.custom-dropdown-child {
+  color: white;
+  background-color: $secondaryColor8;
+  cursor: pointer;
+  height: 100%;
+  display: inline-block;
+}
+
+.custom-dropdown-child-active > .ant-btn {
+  background-color: $primaryColor2 !important;
+}
+
+.custom-dropdown-child:hover,
+.custom-dropdown-child-active {
+  background-color: $secondaryColor6;
+}
+
+.custom-dropdown-child-active .anticon-down {
+  transform: rotate(-180deg);
+}
+
+.custom-dropdown {
+  top: 54px !important;
+
+  .ant-dropdown-menu {
+    border-radius: 0px 0px 6px 6px;
+  }
+}

@@ -1,0 +1,106 @@
+@import "../../../sassStyles/variables";
+
+.notification-item {
+  width: 24rem;
+
+  .main {
+    display: flex;
+    padding: 10px;
+    .content {
+      display: block;
+      flex-grow: 1;
+
+      .message {
+        width: 18rem;
+      }
+
+      .date {
+        font-size: 11px;
+        color: $textColor;
+      }
+    }
+    .bullet {
+      font-size: 8px;
+      color: $primaryColor2;
+      margin-right: 10px;
+      margin-top: 8px;
+    }
+
+    .avatar {
+    }
+  }
+
+  .main:hover {
+    background-color: $secondaryColor;
+  }
+}
+
+.read .main {
+  margin-left: 20px;
+}
+
+.unread .main {
+  background-color: $secondaryColor;
+  font-weight: 500;
+}
+
+.notification-wrapper {
+  background: $whiteColor;
+  border-radius: 0px 0px 6px 6px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+  .header {
+    display: flex;
+    padding: 10px 10px 15px 20px;
+
+    h1 {
+      font-size: 16px;
+      font-weight: 500;
+      color: $textColor2;
+      flex-grow: 1;
+    }
+    h3 {
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 5px;
+      color: $primaryColor2;
+    }
+
+    .anticon {
+      color: $primaryColor;
+      margin-top: 8px;
+      margin-right: 5px;
+      font-size: 15px;
+    }
+  }
+
+  .view-more {
+    padding: 10px 30px;
+    text-align: center;
+    p {
+      font-size: 13px;
+      font-weight: 400;
+      color: $primaryColor2;
+    }
+  }
+  .ant-dropdown-menu {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .ant-dropdown-menu-item {
+    padding: 0 !important;
+    box-shadow: none;
+  }
+  .ant-dropdown-menu-item:hover {
+    background-color: $whiteColor;
+  }
+  .ant-divider-horizontal {
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 26px;
+    width: auto;
+    min-width: auto;
+  }
+}

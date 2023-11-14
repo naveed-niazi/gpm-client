@@ -1,0 +1,38 @@
+@import "../../../sassStyles/variables";
+
+.website-form {
+  .content {
+    display: flex;
+    .website-details {
+      width: 60%;
+      padding-right: 25px;
+    }
+
+    .ant-input-number,
+    .ant-picker {
+      width: 100%;
+    }
+
+    .ant-input,
+    .ant-input-number,
+    .ant-input-number-input,
+    .ant-picker,
+    .ant-select-selector {
+      height: 30px;
+      border-radius: 4px;
+    }
+
+    .ant-form-item-label {
+      padding: 0px;
+    }
+  }
+  .website-form-button {
+    min-width: 100px;
+  }
+
+  .ant-form-item .ant-form-item-explain {
+    font-size: 12px;
+    color: $warningColor;
+    margin-top: 2px;
+  }
+}

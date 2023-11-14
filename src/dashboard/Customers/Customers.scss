@@ -1,0 +1,20 @@
+@import "../../sassStyles/variables";
+
+.customers-table {
+  .anticon-check {
+    color: $successColor;
+  }
+  .anticon-stop {
+    color: $warningColor;
+  }
+
+  .disable-row {
+    color: $warningColor;
+  }
+
+  .ant-table-tbody {
+    .ant-table-cell {
+      font-size: 13px;
+    }
+  }
+}

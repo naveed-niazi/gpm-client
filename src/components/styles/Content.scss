@@ -1,0 +1,35 @@
+@import "../../sassStyles/variables";
+
+.dashboard-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  .ant-table-wrapper .ant-table-thead > tr > th {
+    background-color: $whiteColor;
+  }
+  .header {
+    display: flex;
+  }
+  .header h2 {
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+  .header .ant-input-affix-wrapper {
+    width: 14rem;
+    border-radius: 4px;
+    height: 28px;
+  }
+  .load-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .ant-spin-spinning {
+      margin: auto;
+    }
+  }
+}

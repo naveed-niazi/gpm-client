@@ -1,0 +1,50 @@
+@import "../../../sassStyles/variables";
+
+.settings .content .account {
+  .link {
+    color: $secondaryColor6;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+
+  .subheading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .delete-account {
+    padding-left: 180px;
+  }
+
+  .panel-header {
+    h1 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+    p {
+      font-size: 14;
+    }
+
+    .link {
+      margin-top: 10px;
+      color: $warningColor;
+    }
+  }
+}
+
+.settings .content .account .ant-collapse {
+  .ant-collapse-header {
+    padding: 0;
+  }
+  .ant-collapse-content-box {
+    padding: 0px;
+  }
+
+  .email-panel {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid $secondaryColor;
+  }
+}

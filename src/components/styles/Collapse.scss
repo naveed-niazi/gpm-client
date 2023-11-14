@@ -1,0 +1,19 @@
+@import "../../sassStyles/variables";
+
+.custom-collapse {
+  background-color: $whiteColor;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  height: 190px;
+  border-radius: 4px;
+  opacity: 100%;
+  transition-property: opacity, height, margin-bottom, padding;
+  transition-duration: 0.5s;
+}
+
+.custom-collapse-hide {
+  margin-bottom: 0;
+  padding: 0px 10px;
+  opacity: 0;
+  height: 0px;
+}

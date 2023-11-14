@@ -1,0 +1,143 @@
+@import "../../../sassStyles/variables";
+
+.website-actions .ant-btn-default {
+}
+
+.website-actions .anticon-heart {
+  color: $primaryColor !important;
+}
+
+.website-actions .anticon-shopping-cart {
+  color: $successColor;
+  background: white;
+  font-size: 16px;
+  margin-top: 3.5px;
+}
+
+.website-actions .anticon-edit {
+  color: $linkColor;
+}
+
+.website-actions .anticon-check {
+  color: $successColor;
+}
+
+.website-actions .anticon-flag,
+.anticon-delete {
+  color: $warningColor;
+}
+
+.website-list {
+  .flag {
+    font-size: 20px;
+  }
+  .website-url {
+    font-size: 13px;
+    display: flex;
+    color: $textColor;
+    line-height: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    .anticon {
+      margin-left: 10px;
+      visibility: hidden;
+    }
+  }
+
+  .website-url:hover {
+    text-decoration: underline;
+    color: $linkColor;
+    .anticon {
+      visibility: visible;
+    }
+  }
+  .disable-row {
+    color: $warningColor;
+    .website-url {
+      color: $warningColor;
+    }
+    .website-url:hover {
+      color: $linkColor;
+    }
+  }
+  .new-tab-icon {
+    height: 14px;
+    width: 14px;
+    margin: auto 2px;
+  }
+  .new-tab-icon:hover {
+    cursor: pointer;
+  }
+  .price {
+    font-size: 13px;
+    font-weight: 600;
+    color: $successColor2;
+  }
+
+  .cost {
+    font-size: 13px;
+    font-weight: 600;
+    color: $linkColor;
+  }
+  .filter-header {
+    display: flex;
+    position: relative;
+    color: $secondaryColor4;
+    margin: 0px 5px;
+    .search-result {
+      flex-grow: 1;
+      font-size: 16px;
+      div {
+        margin-bottom: 8px;
+      }
+    }
+
+    .ant-tag {
+      background-color: $linkColor !important;
+      padding: 0px 4px 0px 5px;
+      letter-spacing: 0.2px;
+      font-size: 11px;
+      margin-bottom: 8px;
+      .anticon-close {
+        margin-left: 5px;
+      }
+    }
+  }
+  .table-tooltip {
+    display: flex;
+    margin: auto;
+    .anticon {
+      font-size: 12px;
+      color: $secondaryColor6;
+      margin: auto 0px auto 4px;
+      cursor: pointer;
+    }
+  }
+  .category .ant-tag {
+    margin-bottom: 1px;
+    span {
+      margin-left: 4px;
+      color: $textColor;
+    }
+  }
+  .ant-table-tbody {
+    .ant-table-cell {
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+  }
+}
+// .table-tooltip-container {
+//   .ant-tooltip-inner {
+//     color: $secondaryColor8;
+//     line-height: 20px;
+//     letter-spacing: 0.2px;
+//     padding: 10px;
+//     background: $whiteColor !important;
+//   }
+//   --antd-arrow-background-color: $whiteColor;
+//   box-shadow: none;
+//   .ant-tooltip-arrow::after {
+//     background-color: $whiteColor;
+//   }
+// }
